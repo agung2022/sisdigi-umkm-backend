@@ -43,18 +43,9 @@ Ini adalah layanan backend untuk aplikasi **SisDigi UMKM**, sebuah platform inov
     - Pastikan Anda memiliki server MySQL yang berjalan (misalnya melalui Laragon).
     - Buat database baru (contoh: `simpel_ai_db`).
     - Jalankan skrip SQL di `database_schema.sql` (Anda bisa membuat file ini dan memasukkan perintah `CREATE TABLE` ke dalamnya) untuk membuat tabel `users` dan `generations`.
-
-4.  **Konfigurasi Environment:**
-    - Buat file `.env` di direktori utama.
-    ```env
-    DB_HOST=localhost
-    DB_USER=USERNAME_DB
-    DB_PASSWORD=PASSWORD_DB
-    DB_NAME=umkm_web_builder
-    JWT_SECRET=rahasia-super-aman
     
 
-5.  **Jalankan Server:**
+4.  **Jalankan Server:**
     ```bash
     node server.js
     ```
